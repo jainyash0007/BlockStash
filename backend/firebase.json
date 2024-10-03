@@ -1,0 +1,29 @@
+{
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ],
+  "deploy": {
+      "storeKey": {
+        "region": "us-central1",
+        "v2": true
+      },
+      "getKey": {
+        "region": "us-central1",
+        "v2": true
+      }
+    },
+  "hosting": {
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}

@@ -1,0 +1,11 @@
+client/node_modules/
+coverage
+coverage.json
+typechain
+typechain-types
+client/src/artifacts/
+
+# Truffle files
+cache
+.env.*
+
